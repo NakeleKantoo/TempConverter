@@ -29,6 +29,6 @@ elif args[0]=="-h":
     print("-f [Temperature] Temperature in Fahrenheit")
     exit()
 
-print("Cº:", round(TimeC))
-print("Fº:", round(TimeF))
-print("K:", round(TimeK))
+print("Cº:", round(TimeC,2))
+print("Fº:", round(TimeF,2))
+print("K:", round(TimeK,2))
